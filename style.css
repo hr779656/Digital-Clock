@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(
+        "./images/wall-and-floor-siding-weathered-old-wood-background-free-vector.jpg"
+    );
+    background-position:center;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.time, .leftSide, .rightSide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightSide{
+    flex-direction: column;
+}
+.digitalClock{
+    background: #000;
+    color: #fafafa;
+    padding: 20px 40px;
+    width: 425px;
+    border-radius: 20px;
+    box-shadow: 10px 30px 35px rgba(0,0,0,0.8);
+    margin-bottom: 10%;
+    margin-left: 6%;
+}
+#hours{
+    font-size: 6rem;
+    font-weight: 600;
+}
+#dots{
+    font-size: 4rem;
+    font-weight: 800;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#minutes{
+    font-size: 4rem;
+    font-weight: 800;
+}
+#seconds{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#Am_Pm{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: yellow;
+}
+.rightBottom{
+    margin-left: 60px;
+    transform: translateY(-26px);
+}
+.Text{
+    margin-top: 6%;
+    background-color: #000;
+    opacity: 0.7;
+    text-align: center;
+    width: 100%;
+}
+.Text h1{
+    color: #fafafa;
+}
+#dd, #ddmmyy{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: 20px;
+}
